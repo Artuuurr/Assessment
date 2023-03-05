@@ -1,0 +1,20 @@
+html {
+    font-family: sans-serif;
+    background-color: white;
+  }
+div{
+    width: 200px;
+    height: 150px;
+    margin: 5em auto;
+    background-image: linear-gradient(to bottom right, white 10%,red 80%, black 100%);
+    border: 0.1em solid #990000;
+    border-radius: 1.5em;
+    box-shadow:3px 3px 3px black;
+}  
+p{
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 45px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
