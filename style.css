@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #ffffff;
+  }
+  
+  article {
+    width: 210mm;
+    height: 297mm;
+    margin: 0px auto;
+    position: relative;
+    border-top: red solid 10px;
+    border-bottom: red solid 10px;
+  }
+  
+  address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  img{
+    position: absolute;
+  }
+  .header{
+    width: 100%;
+  }
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logo{
+    margin-top: 62px;
+    margin-left: 75px;
+    filter: brightness();
+}
+  
