@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+  
+  .card{
+    width: 35em;
+    height: 167px;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+header{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+    height: 30px;
+    padding: 0.6em 0.6em 0.6em 0.6em;
+    font-size: 1.25em;
+  }
+  
+footer{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    height: 30px;
+    padding: 0.6em 0.6em  0.6em 0.6em;
+    font-size: 1.25em;
+  }
+  
+img{
+    max-height: 100%;
+    float: right;
+  }
+article{
+  background-color: #990000;
+  line-height: 10px;
+  height: 80px;
+}
+
+h2,p{
+  margin: 0;
+}
+p{
+  padding: 5px;
+}
+
+.t1{
+ color: aliceblue;
+ padding: 5px;
+ font-size: 8px;
+}
